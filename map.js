@@ -1,6 +1,6 @@
 async function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 7,
+    zoom: 10,
     center: { lat: 39.7684, lng: -86.1581 }, // Center of Indiana
   });
 
